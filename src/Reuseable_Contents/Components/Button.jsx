@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Button() {
   return (
     <motion.a
-      href="https://wa.link/8al51o"
+      href="https://wa.link/0je1h7"
       whileHover={{
         scale: 1.01,
         rotateX: -10,
