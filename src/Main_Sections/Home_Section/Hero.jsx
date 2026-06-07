@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+ 
 export default function Hero() {
   return (
     <section
@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative w-full min-h-screen flex items-center justify-center text-white overflow-hidden"
     >
       {/* Background Glow */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#05060f] via-[#0b0f2f] to-[#070816]"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-[#05060f] via-[#0b0f2f] to-[#070816]"></div>
 
       {/* Animated glow orbs */}
       <div className="absolute w-[500px] h-[500px] bg-violet-600/20 rounded-full blur-3xl top-10 left-10 animate-pulse"></div>
@@ -33,7 +33,7 @@ export default function Hero() {
           className="text-4xl md:text-6xl font-bold leading-tight"
         >
           Build the Future with{" "}
-          <span className="bg-gradient-to-r from-violet-400 to-cyan-400 text-transparent bg-clip-text">
+          <span className="bg-linear-to-r from-violet-400 to-cyan-400 text-transparent bg-clip-text">
             Code & Intelligence
           </span>
         </motion.h1>
@@ -60,7 +60,7 @@ export default function Hero() {
             href="https://amoo-abdulmueez-cv.tiiny.site"
             target="_blank"
             rel="noopener noreferrer"
-            className="z-1 px-6 py-3 rounded-xl bg-gradient-to-r from-violet-600 to-cyan-500 shadow-lg hover:scale-105 transition"
+            className="z-1 px-6 py-3 rounded-xl bg-linear-to-r from-violet-600 to-cyan-500 shadow-lg hover:scale-105 transition"
           >
             Resume
           </a>
