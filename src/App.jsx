@@ -1,8 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 import About from "./Main_Sections/About_Section/About";
-import Contact from "./Main_Sections/Contact_Section/Conta  ct";
-import Hero from "./Main_Sections/Home_Section/hero";
+import Contact from "./Main_Sections/Contact_Section/Contact";
+import Hero from "./Main_Sections/Home_Section/Hero";
 import Projects from "./Main_Sections/Project_Section/Project";
 import Services from "./Main_Sections/Service_Section/Services";
 import TechStack from "./Main_Sections/TechStack/TechStack";
