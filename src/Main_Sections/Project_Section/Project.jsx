@@ -5,9 +5,18 @@ import image1 from "../../assets/Images/Project_images/Chop_deck.png";
 import image2 from "../../assets/Images/Project_images/Analytics_Dashboard.png";
 import image3 from "../../assets/Images/Project_images/Horlard_construction_limited.png";
 import image4 from "../../assets/Images/Project_images/Portfolio.png";
+import image5 from "../../assets/Images/Project_images/QuickBite.NG.png";
 
 export default function Projects() {
   const projects = [
+    {
+      image: image5,
+      title: "QuickBite NG",
+      desc: "QuickBite NG is Nigeria's modern food ordering platform, offering quick access to delicious meals, easy online ordering, secure checkout, and a smooth user experience across desktop and mobile devices.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+      view: "https://analytics-dashboard-two-sepia.vercel.app/",
+      github: "https://github.com/ngwebwork/Analytics-Dashboard",
+    },
     {
       image: image2,
       title: "Analytics Dashboard",
