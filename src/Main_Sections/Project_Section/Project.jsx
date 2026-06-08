@@ -12,7 +12,7 @@ export default function Projects() {
     {
       image: image5,
       title: "QuickBite NG",
-      desc: "QuickBite NG is Nigeria's modern food ordering platform, offering quick access to delicious meals, easy online ordering, secure checkout, and a smooth user experience across desktop and mobile devices.",
+      desc: "QuickBite NG is a modern online food ordering platform that connects customers with delicious meals, offering a seamless browsing, ordering, and delivery experience.",
       tech: ["Javascript", "React JS", "Tailwind CSS", "React Redux"],
       view: "https://quick-bite-ng-v6zf.vercel.app/",
       github: "https://github.com/ngwebwork/QuickBiteNG",
