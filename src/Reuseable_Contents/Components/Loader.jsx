@@ -10,12 +10,12 @@ export default function Loader({ setLoading }) {
       setProgress((prev) => {
         if (prev >= 100) {
           clearInterval(interval);
-          setTimeout(() => setLoading(false), 800); // smooth fade-out delay
+          setTimeout(() => setLoading(false), 300); // smooth fade-out delay
           return 100;
         }
         return prev + 0.8;
       });
-    }, 100); // 100ms interval → ~12.5 seconds total
+    }, 10); // 100ms interval → ~12.5 seconds total
 
     return () => clearInterval(interval);
   }, [setLoading]);
@@ -40,7 +40,7 @@ export default function Loader({ setLoading }) {
             animate={{ scale: [0.95, 1.05, 0.95] }}
             transition={{ repeat: Infinity, duration: 3 }}
           >
-            Constructing Portfolio
+            Loading Portfolio...
           </motion.h1>
 
           {/* Progress Bar Container */}
