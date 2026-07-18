@@ -20,7 +20,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-block px-4 py-2 rounded-full border max-sm:mt-10 border-white/10 bg-white/5 backdrop-blur-md text-sm text-gray-300 mb-6"
+          className="inline-block px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-sm text-gray-300 mb-6"
         >
           ⚡ Full Stack Developer • Graphic Designer • Problem Solver
         </motion.div>
