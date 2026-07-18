@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
- 
+
 export default function Hero() {
   return (
     <section
       id="home"
-      className="relative w-full min-h-screen flex items-center justify-center text-white overflow-hidden"
+      className="relative w-full max-sm:h-screen min-h-screen flex items-center justify-center text-white overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 bg-linear-to-br from-[#05060f] via-[#0b0f2f] to-[#070816]"></div>
